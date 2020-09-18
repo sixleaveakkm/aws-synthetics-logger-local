@@ -1,0 +1,1 @@
+# aws-synthetics-logger-local
