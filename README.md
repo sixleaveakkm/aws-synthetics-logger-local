@@ -1,14 +1,15 @@
 # aws-synthetics-logger-local
 
-Missing AWS CloudWatch Synthetics Canary Local Library.
+This a simple alternative library to develop [AWS Synthetics Canary](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Synthetics_Canaries_Function_Library.html) locally.
 
-add following two develop dependencies to your `package.json`
- 
+Cooperate with [aws-synthetics-logger](https://www.npmjs.com/package/@sixleaveakkm/aws-synthetics-local)
+
+For no code change replacement, add following two develop dependencies to your `package.json`
 ```json
 {
     "devDependencies": {
-        "Synthetics": "npm:@sixleaveakkm/aws-synthetics-local@0.1.2",
-        "SyntheticsLogger": "npm:@sixleaveakkm/aws-synthetics-logger-local@0.1.0"
+        "Synthetics": "npm:@sixleaveakkm/aws-synthetics-local@0.1.6",
+        "SyntheticsLogger": "npm:@sixleaveakkm/aws-synthetics-logger-local@0.1.6"
     }
 }
 ```
