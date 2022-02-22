@@ -1,6 +1,6 @@
 {
-  "name": "@sixleaveakkm/aws-synthetics-logger-local",
-  "version": "0.1.6",
+  "name": "@jessiehernandez/aws-synthetics-logger-local",
+  "version": "0.1.7",
   "description": "dev library for aws synthetics canary",
   "main": "index.js",
   "scripts": {
@@ -12,11 +12,11 @@
     "synthetics",
     "aws"
   ],
-  "author": "sixleaveakkm",
+  "author": "jessiehernandez",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/sixleaveakkm/aws-synthetics-logger-local.git"
+    "url": "git+ssh://git@github.com/jessiehernandez/aws-synthetics-logger-local.git"
   },
   "bugs": {
     "url": "https://github.com/sixleaveakkm/aws-synthetics-logger-local/issues"
