@@ -18,9 +18,8 @@ function getLogLevel() {
 
 exports.setLogLevel = setLogLevel
 exports.getLogLevel = getLogLevel
-exports.debug       = log.debug
-exports.error       = log.error
-exports.info        = log.info
-exports.log         = log.log
-exports.warn        = log.warn
-
+exports.debug       = function () { log.debug.apply(log, arguments) }
+exports.error       = function () { log.error.apply(log, arguments) }
+exports.info        = function () { log.info.apply(log, arguments)  }
+exports.log         = function () { log.log.apply(log, arguments)   }
+exports.warn        = function () { log.warn.apply(log, arguments)  }
